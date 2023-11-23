@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #00000016;
+}
+.cabecalho123{
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+    text-align: center;
+    background-color:  #223ca5;
+    font-family: 'Calibri';
+}
+
+.Espacamento{
+  margin: 0.4em;
+}
+.Espacamento2{
+  margin: 1em;
+}
+
+.card{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.card .name , .card .e-mail,.tel, .Endereço {
+  flex: 1 0 10rem;
+  padding: 1em 1em;
+}
+.card, .submit , .tel{
+  flex: 1 0 2rem;
+}
+.submit{
+  background-color:  #223ca5;
+  color: white;
+}
+
